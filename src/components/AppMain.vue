@@ -6,7 +6,7 @@
         </button>
       </div>
       <div class="content-image container">
-        <AppCoverFilm v-for="(item, index) in comicList" :key="index" :comicsCover="item"/>
+        <AppCoverFilm v-for="(item, index) in comicsList" :key="index" :comicsCover="item"/>
       </div>
   </main>
 </template>
@@ -116,11 +116,20 @@ export default {
   .main{
     width: 100%;
     background-color: #1c1c1c;
+    
 
     .jumbotron {
         position: relative;
         height: 400px;
         background-image: url(../assets/img/jumbotron.jpg);
+    }
+
+    .content-image{
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      padding: 2em 0;
+      margin-top: 2em;
     }
 
     .btn-current{

@@ -25,6 +25,7 @@ export default {
     flex-wrap: wrap;
     width: calc(100% / 6);
     margin-bottom: 3rem;
+    margin-right: 1em;
     color: white;
 }
 
