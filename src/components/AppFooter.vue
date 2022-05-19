@@ -1,14 +1,10 @@
 <template>
-  <section class="pre-footer">
-      <div class="container">
-          
-      </div>
-  </section>
+  <div></div>
 </template>
 
 <script>
 export default {
-
+    name: "AppFooter"
 }
 </script>
 
