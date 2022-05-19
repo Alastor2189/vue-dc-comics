@@ -15,6 +15,9 @@
 
 export default {
     name: "AppPreFooter",
+    components:{
+
+    },
     data: function() {
         return {
             imgIcons: [{

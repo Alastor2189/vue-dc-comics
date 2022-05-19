@@ -21,8 +21,8 @@ export default {
     AppMain,
     AppPreFooter,
     AppFooter,
-}
-}
+},
+};
 </script>
 
 <style lang="scss">
